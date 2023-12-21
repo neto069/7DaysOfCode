@@ -1,0 +1,281 @@
+:root {
+    
+    --cor-text: #667085;
+    --cor-titulo:#101828;
+    --cor-main: #8E2424;    
+    --fonte-nav: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+ }
+
+ .link a {
+    color: var(--cor-text);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+.button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--cor-text);
+    font-size: 0.9rem;
+}
+
+button.signUp {
+    background-color: var(--cor-main);
+    color: #FFF;
+}
+
+/* Cabeçalho - Primeira Seção  */
+
+
+
+.sobre-nos {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sobre-nos span {
+    color: var(--cor-main);
+}
+
+.sobre-nos h1 {
+    font-size: 2rem;
+    color: var(--cor-titulo);
+}
+
+.sobre-nos p {
+    color: var(--cor-text);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Seção de Metricas  */
+
+
+
+.metricas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;    
+}
+
+.metrica {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.metrica h1 {
+    color: var(--cor-main);
+    font-size: 3rem;
+}
+
+.metrica span {
+    color: var(--cor-text);
+    line-height: 140%;
+    font-size: 90%;
+}
+
+.metrica .metrica__titulo {
+    font-weight: 500;
+    color: #101828;
+}
+
+
+/* Seção de Profissionais */
+
+
+.profissionais {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 1rem;
+}
+
+.profissionais h2 {
+    color: var(--cor-titulo);
+}
+
+
+.profissionais span {
+    color: var(--cor-main);
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.profissionais p {
+    color: var(--cor-text);
+}
+
+.profissionais img {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+/* Seção Vagas Disponíveis */
+
+.vagas-disponiveis {
+    padding-top: 4rem;
+}
+
+
+.vagas-disponiveis span.vaga__setor {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: var(--cor-titulo);
+
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--cor-titulo);
+}
+
+.vaga span.titulo-vaga {
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.vaga .informacoes {
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--cor-text);
+    display: flex;
+    gap: 2rem;
+}
+
+ /* Seção Depoimentos */ 
+
+ .depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 8rem auto ;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 3rem 2rem;
+ }
+
+ .depoimentos span {
+    color:var(--cor-main);
+    font-weight: 500;
+ }
+
+ .depoimentos img {
+    width: 48px;
+ }
+
+ .depoimentos h2 {
+    color: var(--cor-titulo);
+    font-weight: 500;
+    text-align: center;
+    max-width: 70%;
+    margin: 2rem 0;
+ }
+
+ .depoimentos span.nome {
+    color: var(--cor-titulo);
+    margin: 0.5rem 0;
+    font-weight: 400;
+ }
+
+ .depoimentos span.cargo {      
+    color: var(--cor-text);
+    font-weight: 400;   
+ }
+
+/* Seção final - formulário*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9fafb;
+    padding: 6rem 0;
+    gap: 1.5rem;
+}
+
+footer h2 {
+    color: var(--cor-titulo);
+}
+
+footer span {
+    color: var(--cor-text);
+}
+
+footer form {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer input {
+    outline: none;
+    border: 1px solid #d0d5dd;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 280px;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
